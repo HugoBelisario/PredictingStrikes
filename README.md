@@ -1,11 +1,5 @@
 # Predicting Strikes In Baseball
 
-## Final Paper and PowerPoint Presentation Links
-
-Final Paper: https://docs.google.com/document/d/1Ry5F9iL5sIELfRR7P3H-GRdgrlL_IOIfZ8HBzAO4NhE/edit?usp=sharing
-
-PowerPoint: https://docs.google.com/presentation/d/1MSRSN_XpcWtXioAXy6xf5ng6Fe8CSWffRkpvtiLmDos/edit?usp=sharing
-
 ## Research Question and Overview
 
 A strike is defined as a pitch that is counted against the batter. For a pitch to be called a strike, the batter can either swing and miss on the pitch, let it pass through the strike zone without swinging or hit it foul (unless there are two strikes that have already been called). For pitchers, the ability to throw strikes consistently is extremely valuable and widely sought after by Major League Baseball teams. It clearly displays an exceptional level of control or ability to stay ahead in the pitch count against a hitter and a higher chance of producing outs which is the pitcher’s main responsibility. 
@@ -62,3 +56,8 @@ The green section of this graph shows the threshold values for which our true/fa
 ## Further improvements
 While the final model correctly identified about 76% of pitches, it has room for a number of improvements. Our preliminary EDA coupled with our team members’ domain knowledge of baseball indicates that a few variables had much lower coefficients than hypothesized. The most probable explanation for this is the lack of interaction terms in our model. For example, pitch speed does not factor much into our model, but different pitches are thrown at different speeds; the same is true for pitch spin. Thus an interaction term with pitch type would capture all of this information. Similarly, the zone variable we use is not flipped for righties and lefties, which negatively impacts the predictive power of zone. It is much better to identify a ball as high and close to the body than as an arbitrary spot in the strike zone. Finally, we expect pitcher interaction terms will add considerable accuracy to our model because pitchers have so many unique characteristics.
 
+## Final Paper and PowerPoint Presentation Links
+
+Final Paper: https://docs.google.com/document/d/1Ry5F9iL5sIELfRR7P3H-GRdgrlL_IOIfZ8HBzAO4NhE/edit?usp=sharing
+
+PowerPoint: https://docs.google.com/presentation/d/1MSRSN_XpcWtXioAXy6xf5ng6Fe8CSWffRkpvtiLmDos/edit?usp=sharing
